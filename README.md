@@ -1,5 +1,5 @@
 # ReadmeGenerator
-
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 ## Description
 A console application that generates a README.md file for a repository
 
