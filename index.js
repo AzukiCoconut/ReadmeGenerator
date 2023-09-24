@@ -1,3 +1,5 @@
+const generator = require("./utils/generateMarkdown");
+const fs = require("fs");
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
