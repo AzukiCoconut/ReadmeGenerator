@@ -1,7 +1,7 @@
 # ReadmeGenerator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 ## Description
-A console application that generates a README.md file for a repository
+This is a description.
 
 ## Table of Contents
   - [Installation](#installation)
@@ -13,20 +13,27 @@ A console application that generates a README.md file for a repository
 
 <a id="installation"></a>
 ## Installation
-VS Code supports Markdown files out of the box. You just start writing Markdown text, save the file with the .md extension and then you can toggle the visualization of the editor between the code and the preview of the Markdown file; obviously, you can also open an existing Markdown file and start working
+This is installation instructions.
 
 <a id="usage"></a>
 ## Usage
-VS Code supports Markdown files out of the box. You just start writing Markdown text, save the file with the .md extension and then you can toggle the visualization of the editor between the code and the preview of the Markdown file; obviously, you can also open an existing Markdown file and start working
+This is usage information.
 
 <a id="license"></a>
 ## License
+Please follow the link for more information on the open source license <a href="https://opensource.org/license/MIT/" alt="MIT">MIT</a>
 
 <a id="contributing"></a>
 ## Contributing
+This is contribution guidelines
 
 <a id="tests"></a>
 ## Tests
+This is testing instructions
 
 <a id="questions"></a>
 ## Questions
+For questions please feel free to reach out to me through GitHub or email
+Github:  https://www.github.com/AzukiCoconut
+
+Email: matthew.tingley@bellaliant.net

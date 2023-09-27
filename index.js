@@ -1,4 +1,4 @@
-const generator = require("./utils/generateMarkdown");
+const gen = require('./utils/generateMarkdown.js');
 const fs = require("fs");
 const inquirer = require("inquirer");
 
@@ -57,7 +57,10 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then((answers) => {console.log(answers);
+    inquirer.prompt(questions).then((answers) => {
+       const data = gen.generateMarkdown(answers);
+
+       fs.writeFile('README.md', data, (err) => err ? console.log(err) : console.log("Successfully created README.md") );
 });
 }
 
