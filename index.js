@@ -60,7 +60,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
        const data = gen.generateMarkdown(answers);
 
-       fs.writeFile('README.md', data, (err) => err ? console.log(err) : console.log("Successfully created README.md") );
+       fs.writeFile('./output/README.md', data, (err) => err ? console.log(err) : console.log("Successfully created README.md") );
 });
 }
 
