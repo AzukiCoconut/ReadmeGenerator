@@ -9,8 +9,13 @@ Below is a link to a video of the walkthrough of the application:
 
 https://drive.google.com/file/d/1pQ56Pmbhsp72tRInZawbPwNoYp7Ju1LN/view
 
+This is a link to a video showing the functioning table of contents.
+
+https://drive.google.com/file/d/1C37kySRZjSKM_SIFksQiHEVG6KM9NPZq/view
+
 Also, here is a link to the README.md file that was generated with the walkthrough video above: 
 
+https://github.com/AzukiCoconut/ReadmeGenerator/tree/main/output
 
 ## Credits
 
