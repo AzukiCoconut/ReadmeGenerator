@@ -2,7 +2,7 @@ const gen = require('./utils/generateMarkdown.js');
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// TODO: Create an array of questions for user input
+// Creating an array of quetions for inquirer
 const questions = [
     {
         type: "input",
@@ -52,16 +52,19 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// A function to handle the writing of the Readme data to a file.
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log("Successfully created README.md") );
+}
 
-// TODO: Create a function to initialize app
+// A function to initialize the application
 function init() {
+    // Launch inquirer
     inquirer.prompt(questions).then((answers) => {
        const data = gen.generateMarkdown(answers);
-
-       fs.writeFile('./output/README.md', data, (err) => err ? console.log(err) : console.log("Successfully created README.md") );
-});
+        // write to file
+       writeToFile('./output/README2.md', data);
+})
 }
 
 // Function call to initialize app
