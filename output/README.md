@@ -1,7 +1,7 @@
 # ReadmeGenerator
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 ## Description
-This is a description.
+This is a description sample input.
 
 ## Table of Contents
   - [Installation](#installation)
@@ -13,23 +13,23 @@ This is a description.
 
 <a id="installation"></a>
 ## Installation
-These are the installation instructions.
+These are sample installation instructions.
 
 <a id="usage"></a>
 ## Usage
-Usage information is in this text.
+This is usage information that a user may input that may be useful.
 
 <a id="license"></a>
 ## License
-
+Please follow the link for more information on the open source license <a href="https://opensource.org/license/MIT/" alt="MIT">MIT</a>
 
 <a id="contributing"></a>
 ## Contributing
-These are the contribution guidelines.
+These are some helpful guidelines for contributing to this project.
 
 <a id="tests"></a>
 ## Tests
-These are testing instructions.
+Do not forget to test.  Here are some helpful testing instructions.
 
 <a id="questions"></a>
 ## Questions
