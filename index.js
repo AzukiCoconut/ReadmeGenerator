@@ -28,7 +28,7 @@ const questions = [
         type: "list",
         message: "Choose a license to include:",
         name: "license",
-        choices: ['MIT', 'Apache-2.0', 'CDDL-1.0', 'GPL-2.0'],
+        choices: ['none','MIT', 'Apache-2.0', 'CDDL-1.0', 'GPL-2.0'],
     },
     {
         type: "input",
